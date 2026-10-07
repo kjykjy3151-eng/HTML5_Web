@@ -1,0 +1,45 @@
+#기본 예제 6-13 overflow 속성 - 코드 6-42 (position_formulaOverflowY.html)
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Font Property</title>
+    <style>
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+            z-index: 100;
+        }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+            z-index: 10;
+        }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px; top: 90px;
+            z-index: 1;
+        }
+        body > div {
+            width: 400px; height: 100px;
+            border: 3px solid black;
+            position: relative;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<h1>Lorem ipsum dolor amet</h1>
+<div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<h1>Lorem ipsum dolor amet</h1>
+</body>
+</html>

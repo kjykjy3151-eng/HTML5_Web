@@ -1,0 +1,32 @@
+#기본 예제 6-12 position 속성 - 코드 6-35 (position_absoluteLeftTop.html)
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Font Property</title>
+    <style>
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+        }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+        }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px; top: 90px;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</body>
+</html>

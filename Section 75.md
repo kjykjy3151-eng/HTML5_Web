@@ -1,0 +1,17 @@
+#기본 예제 6-11 링크의 밑줄 제거 - 코드 6-33 (font_textDecoration.html)
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Font Property</title>
+    <style>
+        a { text-decoration: none; }
+    </style>
+</head>
+<body>
+<h1>
+    <a href="#">Lorem ipsum dolor amet</a>
+</h1>
+</body>
+</html>
