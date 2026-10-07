@@ -1,0 +1,30 @@
+#클자 태그(제목과 본문 글자 태그)
+<br>
+#예제 1
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>HTML TEXT Basic Page</title>
+
+</head>
+
+<body>
+
+<h1>제목 글자 태그 1</h1>
+
+<h2>제목 글자 태그 2</h2>
+
+<h3>제목 글자 태그 3</h3>
+
+<h4>제목 글자 태그 4</h4>
+
+<h5>제목 글자 태그 5</h5>
+
+<h6>제목 글자 태그 6</h6>
+
+</body>
+
+</html>
